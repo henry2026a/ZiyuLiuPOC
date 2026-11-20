@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food Price List</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="foods.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>Food Price List</h1>
+    <p>Sample prices for five grocery items.</p>
+
+    <p id="status" role="status">Loading food prices...</p>
+    <table id="food-table" aria-label="Food prices" hidden>
+      <thead>
+        <tr>
+          <th scope="col">Food</th>
+          <th scope="col">Price</th>
+        </tr>
+      </thead>
+      <!-- JavaScript fills in the rows after the API responds. -->
+      <tbody id="food-rows"></tbody>
+    </table>
+
+    <footer>
+      Student project for demonstrating web development skills only.
+    </footer>
+  </main>
+</body>
+</html>
