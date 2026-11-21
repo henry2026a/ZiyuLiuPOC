@@ -52,3 +52,13 @@ footer {
   color: #515b50;
   font-size: 0.875rem;
 }
+
+/* The disclaimer must stay clearly visible: it is a marked requirement. */
+footer .disclaimer {
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  border-left: 3px solid #7a8b76;
+  background: #f7f9f6;
+  color: #3f4a3e;
+  line-height: 1.45;
+}
